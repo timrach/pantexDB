@@ -8,19 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chaijs/chai"
+    "url": "https://github.com/timrach/pantexDB"
   },
   "bugs": {
-    "url": "https://github.com/chaijs/chai/issues"
-  },
-  "main": "./index",
-  "scripts": {
-    "test": "make test"
+    "url": "https://github.com/timrach/pantexDB/issues"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.10.22"
   },
-  "main": "index.js",
+  "main": "./lib/pantexdb.js",
   "scripts": {
     "test": "mocha"
   },
@@ -33,9 +29,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "fs.extra" : "1.2.1"
+    "fs.extra" : ">=1.2.1"
   },
   "devDependencies": {
-    "chai" : "*"
+    "chai" : ">=1.9.1"
   }
 }
