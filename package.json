@@ -1,5 +1,5 @@
 {
-  "name": "pantexDB",
+  "name": "pantexdb",
   "version": "0.0.1",
   "description": "A file-based databasesystem. Databases and collections are represented by folders, documents by JSON files. Supports basic queries (save,findOne,find,update,delete).",
   "author": {
