@@ -1,0 +1,41 @@
+{
+  "name": "pantexDB",
+  "version": "0.0.1",
+  "description": "A file-based databasesystem. Databases and collections are represented by folders, documents by JSON files. Supports basic queries (save,findOne,find,update,delete).",
+  "author": {
+    "name" : "Tim Rach",
+    "email" : "tim.rach91@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaijs/chai"
+  },
+  "bugs": {
+    "url": "https://github.com/chaijs/chai/issues"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "database",
+    "minimal",
+    "file-based",
+    "memory",
+    "file"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fs.extra" : "1.2.1"
+  },
+  "devDependencies": {
+    "chai" : "*"
+  }
+}
