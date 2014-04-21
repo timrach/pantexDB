@@ -6,7 +6,7 @@ var Pantex = require('../lib/pantexDB.js');
 
 
 describe("dataBase", function(){
-    var d = new Pantex('./testDB', 'testDB', ["testCollection", "test2"], false);
+    var d = new Pantex('./testDB', 'testDB', ["testCollection", "test2"], false).open();
 
     after(function(done){
         d.delete(function(err){
