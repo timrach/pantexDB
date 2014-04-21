@@ -13,9 +13,9 @@ A database is initialized with the 'open()' method and can be deleted with the m
 Be careful when you delete a database, EVERYTHING in the database folder will be deleted.
 
 ```javascript
-    var Pandex = require('pandexdb');
-    //new Pandex(db_path,db_name,[collection_names])
-    var db = new Pandex('./','Animals',['turtles','penguins']).open()
+    var Pantex = require('pantexdb');
+    //new Pantex(db_path,db_name,[collection_names])
+    var db = new Pantex('./','Animals',['turtles','penguins']).open()
 ```
 
 The module will automatically create all needed folders in the given directory.
@@ -48,9 +48,9 @@ A random id is generated autmatically when a document is saved for the first tim
 
 
 ```javascript
-var Pandex = require('pandexdb');
-//new Pandex(db_path,db_name,[collection_names])
-var db = new Pandex('./','Animals',['turtles','penguins']).open()
+var Pantex = require('pantexdb');
+//new Pantex(db_path,db_name,[collection_names])
+var db = new Pantex('./','Animals',['turtles','penguins']).open()
 
 var sea_turtle = {"name" : "Fred", "family" : "Cheloniidae"};
 db.turtles.save(sea_turtle,function(err,obj){
