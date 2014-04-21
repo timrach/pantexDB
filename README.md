@@ -109,7 +109,7 @@ Updates the attributes of the document with given id.
 If the attributes are not present in the object yet they will be created.
 If they already exist, the values to the keys will be updated.
 
-```
+```javascript
 db.turtles.update("45h2345k134h12349",{age: 59, beatle: true} function(err,obj){
     /*    obj: {_id: 45h2345k134h12349,
           age: 59,
@@ -123,7 +123,7 @@ db.turtles.update("45h2345k134h12349",{age: 59, beatle: true} function(err,obj){
 Deletes all documents matching the attributes specified in the query object.
 Returns the number of deleted documents
 
-```
+```javascript
 db.turtles.delete({family: "Testudinidae"},function(err,num){
     /* 2 Documents deleted (num = 2)  */
 })
